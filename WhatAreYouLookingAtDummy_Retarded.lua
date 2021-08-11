@@ -279,7 +279,7 @@ function HankLib:Window(name, text)
     TopTitle.Parent = TopBar
     TopTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     TopTitle.BackgroundTransparency = 1.000
-    TopTitle.Position = UDim2.new(0.18, 0, 0, 0)
+    TopTitle.Position = UDim2.new(0.4, 0, 0, 0)
     TopTitle.Size = UDim2.new(0, 145, 0, 35)
     TopTitle.ZIndex = 2
     TopTitle.Font = Enum.Font.SourceSansBold
@@ -292,7 +292,7 @@ function HankLib:Window(name, text)
     MainTitle.Parent = TopBar
     MainTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     MainTitle.BackgroundTransparency = 1
-    MainTitle.Position = UDim2.new(0.385, 0, 0, 0)
+    MainTitle.Position = UDim2.new(0.45, 0, 0, 0)
     MainTitle.Size = UDim2.new(0, 145, 0, 35)
     MainTitle.ZIndex = 2
     MainTitle.Font = Enum.Font.SourceSansBold
