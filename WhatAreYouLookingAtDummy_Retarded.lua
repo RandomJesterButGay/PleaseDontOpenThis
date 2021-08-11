@@ -296,7 +296,7 @@ function HankLib:Window(name, text)
     MainTitle.Size = UDim2.new(0, 500, 0, 35)
     MainTitle.ZIndex = 2
     MainTitle.Font = Enum.Font.SourceSansBold
-    MainTitle.TextWrapped = true
+    MainTitle.TextWrapped = false
     MainTitle.Text = " - "..text
     MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
     MainTitle.TextSize = 20.000
