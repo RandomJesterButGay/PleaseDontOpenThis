@@ -293,7 +293,7 @@ function HankLib:Window(name, text)
     MainTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     MainTitle.BackgroundTransparency = 1
     MainTitle.Position = UDim2.new(0.385, 0, 0, 0)
-    MainTitle.Size = UDim2.new(0, 145, 0, 35)
+    MainTitle.Size = UDim2.new(0, 200, 0, 35)
     MainTitle.ZIndex = 2
     MainTitle.Font = Enum.Font.SourceSansBold
     MainTitle.TextWrapped = true
