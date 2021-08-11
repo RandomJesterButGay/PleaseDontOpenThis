@@ -279,7 +279,7 @@ function HankLib:Window(name, text)
     TopTitle.Parent = TopBar
     TopTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     TopTitle.BackgroundTransparency = 1.000
-    TopTitle.Position = UDim2.new(0.4, 0, 0, 0)
+    TopTitle.Position = UDim2.new(0.354166657, 0, 0, 0)
     TopTitle.Size = UDim2.new(0, 145, 0, 35)
     TopTitle.ZIndex = 2
     TopTitle.Font = Enum.Font.SourceSansBold
@@ -287,22 +287,6 @@ function HankLib:Window(name, text)
     TopTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
     TopTitle.TextSize = 20.000
     TopTitle.TextWrapped = true
-    
-    MainTitle.Name = "MainTitle"
-    MainTitle.Parent = TopBar
-    MainTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-    MainTitle.BackgroundTransparency = 1
-    MainTitle.Position = UDim2.new(0.45, 0, 0, 0)
-    MainTitle.Size = UDim2.new(0, 145, 0, 35)
-    MainTitle.ZIndex = 2
-    MainTitle.Font = Enum.Font.SourceSansBold
-    MainTitle.TextWrapped = true
-    MainTitle.Text = " - "..text
-    MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-    MainTitle.TextSize = 20.000
-
-    UICorner_4.CornerRadius = UDim.new(0, 5)
-    UICorner_4.Parent = MainTitle
 
     TopButton.Name = "TopButton"
     TopButton.Parent = TopBar
@@ -342,6 +326,21 @@ function HankLib:Window(name, text)
 
     UICorner_3.CornerRadius = UDim.new(0, 5)
     UICorner_3.Parent = SideBar
+
+    MainTitle.Name = "MainTitle"
+    MainTitle.Parent = SideBar
+    MainTitle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    MainTitle.Position = UDim2.new(0.0500000007, 0, 0.0226415098, 0)
+    MainTitle.Size = UDim2.new(0, 125, 0, 25)
+    MainTitle.ZIndex = 2
+    MainTitle.Font = Enum.Font.SourceSansBold
+    MainTitle.TextWrapped = true
+    MainTitle.Text = text
+    MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+    MainTitle.TextSize = 20.000
+
+    UICorner_4.CornerRadius = UDim.new(0, 5)
+    UICorner_4.Parent = MainTitle
     
     UIListLayout.Parent = SideBar
     UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
